@@ -1,4 +1,524 @@
-[
+[{
+    "_id": {
+      "$oid": "6173ff8ca930974bb99b025c"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "Informatique"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "destination": "secteur",
+    "code": "A@12121",
+    "etat_objet": "active",
+    "ref_secteur": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffaea930974bb99b025d"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "developpement"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1213",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffcfa930974bb99b025e"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "securité"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1215",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffe7a930974bb99b025f"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. web"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "c@1214",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173fff8a930974bb99b0260"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. mobile"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1217",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "6173ff8ca930974bb99b025c"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "Informatique"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "destination": "secteur",
+    "code": "A@12121",
+    "etat_objet": "active",
+    "ref_secteur": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffaea930974bb99b025d"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "developpement"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1213",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffcfa930974bb99b025e"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "securité"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1215",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffe7a930974bb99b025f"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. web"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "c@1214",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173fff8a930974bb99b0260"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. mobile"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1217",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "6173ff8ca930974bb99b025c"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "Informatique"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "destination": "secteur",
+    "code": "A@12121",
+    "etat_objet": "active",
+    "ref_secteur": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffaea930974bb99b025d"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "developpement"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1213",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffcfa930974bb99b025e"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "securité"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1215",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffe7a930974bb99b025f"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. web"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "c@1214",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173fff8a930974bb99b0260"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. mobile"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1217",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "6173ff8ca930974bb99b025c"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "Informatique"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "destination": "secteur",
+    "code": "A@12121",
+    "etat_objet": "active",
+    "ref_secteur": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffaea930974bb99b025d"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "developpement"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1213",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffcfa930974bb99b025e"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "securité"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1215",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffe7a930974bb99b025f"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. web"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "c@1214",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173fff8a930974bb99b0260"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. mobile"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1217",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },{
+    "_id": {
+      "$oid": "6173ff8ca930974bb99b025c"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "Informatique"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "destination": "secteur",
+    "code": "A@12121",
+    "etat_objet": "active",
+    "ref_secteur": "",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffaea930974bb99b025d"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "developpement"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1213",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffcfa930974bb99b025e"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "securité"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1215",
+    "etat_objet": "active",
+    "destination": "section",
+    "ref_secteur": "6173ff8ca930974bb99b025c",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173ffe7a930974bb99b025f"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. web"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "c@1214",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6173fff8a930974bb99b0260"
+    },
+    "translations": {
+      "fr": {
+        "__designation": "dev. mobile"
+      },
+      "en": {
+        "__designation": ""
+      },
+      "ar": {
+        "__designation": ""
+      }
+    },
+    "code": "B@1217",
+    "etat_objet": "active",
+    "destination": "division",
+    "ref_section": "6173ffaea930974bb99b025d",
+    "__v": 0
+  },
   {
     "_id": {
       "$oid": "6173ff8ca930974bb99b025c"
